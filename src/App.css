@@ -76,6 +76,8 @@ border-top: 0.1875rem solid var(--primary-dark);
 .header-wraper{
   position: relative;
   background: url(WyESYh.jpg) no-repeat;
+  /* background: url(portfolio_bg.jpg) no-repeat; */
+  /* background: url(portfolio_bg2.jpg) no-repeat; */
   background-size: cover;
   background-position: center;
   height: 90vh;
