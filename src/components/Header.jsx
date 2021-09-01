@@ -1,11 +1,12 @@
 import React from 'react';
 import Typed from 'react-typed';
-
+import mineImg from '../mineImg.png'
 const Header = () => {
     return (
         <div className="header-wraper">
             <div className="main-info">
-                <h1>Web Development and Website Promotions</h1>
+            <div>
+                <h1>Hi There, I am Gaurav Parmar</h1>
                 <Typed 
 
                     className="typed-text"
@@ -15,6 +16,8 @@ const Header = () => {
                     loop
                 />
                 <a href="#" className="btn-main-offer">Contact Me</a>
+                </div>
+                <img src={mineImg} alt="sds" />
             </div>
         </div>
     )
