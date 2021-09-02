@@ -1,11 +1,14 @@
 import React from 'react';
+// import { Link } from 'react-router-dom';
 import Typed from 'react-typed';
 import mineImg from '../mineImg.png'
+import GetAppRoundedIcon from '@material-ui/icons/GetAppRounded';
+// import bg2 from '../bg2.png'
 const Header = () => {
     return (
         <div className="header-wraper">
             <div className="main-info">
-            <div>
+            <div className="main-info-left">
                 <h1>Hi There, I am Gaurav Parmar</h1>
                 <Typed 
 
@@ -15,7 +18,9 @@ const Header = () => {
                     backSpeed={60}
                     loop
                 />
-                <a href="#" className="btn-main-offer">Contact Me</a>
+                <h3 className="bio">Aspiring full stack developer with Excellent problem-solving skills. Able to perform well in a team.
+Passionate about coding and equipped with a diverse and promising skill-set.</h3>
+                <button className="btn-main-offer" onClick={() => window.open("/Resume.pdf", "_blank")}><GetAppRoundedIcon /> Resume</button>
                 </div>
                 <img src={mineImg} alt="sds" />
             </div>

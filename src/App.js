@@ -3,10 +3,17 @@ import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import Navbar from './components/Navbar';
 import Header from './components/Header';
 import Particles from 'react-particles-js';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import About from './components/About';
+import Projects from './components/Projects';
+import Contacts from './components/Contacts';
+import Resume from './components/Resume';
+
 function App() {
   return (
     <div className="App">
     <>
+    <Router>
     <Particles
           className="particles-canvas"
     params={
@@ -30,7 +37,25 @@ function App() {
     }
      />
      <Navbar />
-     <Header />
+     <Switch>
+          <Route exact path="/">
+            <Header />
+          </Route>
+          <Route path="/about">
+            <About />
+          </Route>
+          <Route path="/projects">
+            <Projects />
+          </Route>
+          <Route path="/contact">
+            <Contacts />
+          </Route>
+          <Route path="/resume">
+            <Resume />
+          </Route>
+        </Switch>
+     {/* <Header /> */}
+     </Router>
      </>
     </div>
   );
