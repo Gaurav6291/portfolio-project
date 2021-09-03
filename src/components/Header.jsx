@@ -3,9 +3,13 @@ import React from 'react';
 import Typed from 'react-typed';
 import mineImg from '../mineImg.png'
 import GetAppRoundedIcon from '@material-ui/icons/GetAppRounded';
+import ContactBanner from './ContactBanner';
+// import Footer from './Footer';
 // import bg2 from '../bg2.png'
+// import About from './About';
 const Header = () => {
     return (
+        <>
         <div className="header-wraper">
             <div className="main-info">
             <div className="main-info-left">
@@ -25,6 +29,10 @@ Passionate about coding and equipped with a diverse and promising skill-set.</h3
                 <img src={mineImg} alt="sds" />
             </div>
         </div>
+            {/* <About /> */}
+           <ContactBanner />
+           
+            </>
     )
 }
 

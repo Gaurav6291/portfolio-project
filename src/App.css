@@ -13,7 +13,9 @@
 body{
   font-family: 'Roboto Condensed', sans-serif;
 }
-
+html{
+  font-size: 10px;
+}
 /*****************************NAVBAR**********************************/
 
 .pickRight{
@@ -81,6 +83,7 @@ border-top: 0.1875rem solid var(--primary-dark);
   background-size: cover;
   background-position: center;
   height: 90vh;
+  /* font-size:; */
 }
 
 .main-info {
@@ -117,7 +120,8 @@ border-top: 0.1875rem solid var(--primary-dark);
   transition: 1.5s ease-in-out;
 }
 .main-info-left{
-  width: 50%;
+  width: 60%;
+  font-size:x-large;
 }
 .bio{
   width: 67%;
@@ -177,6 +181,7 @@ border-top: 0.1875rem solid var(--primary-dark);
   color: var(--primary-white);
   transition: 0.4s ease-in-out;
   border-radius: 50%;
+  border: 0;
 }
 /*****************************Partical JS**********************************/
 
