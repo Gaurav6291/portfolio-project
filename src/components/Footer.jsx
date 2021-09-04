@@ -72,7 +72,7 @@ const Footer = () => {
                 <div className="footer__col1">
                     <h1 className="footer__col1__title">Gaurav Parmar</h1>
                     <PText>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem repellendus voluptatibus quia beatae sequi nobis.
+                    Aspiring full stack developer with Excellent problem-solving skills.Passionate about coding and equipped with a diverse and promising skill-set.
                     </PText>
                     
                 </div>

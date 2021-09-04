@@ -77,7 +77,7 @@ border-top: 0.1875rem solid var(--primary-dark);
 
 .header-wraper{
   position: relative;
-  background: url(bg2.jpg) no-repeat;
+  background: url(bg8.jpg) no-repeat;
   /* background: url(portfolio_bg.jpg) no-repeat; */
   /* background: url(portfolio_bg2.jpg) no-repeat; */
   background-size: cover;
@@ -138,6 +138,7 @@ border-top: 0.1875rem solid var(--primary-dark);
 @media(max-width: 768px){
   .main-info{
     flex-direction:column-reverse;
+    gap: 15px;
   }
   .main-info h1{
     font-size: 1.7rem !important;
@@ -197,3 +198,91 @@ z-index: 1;
     display: none;
   }
 }
+
+
+/************************************ Proficiency *****************************/
+.mySkills{
+width: 100%;
+margin-top: 60px;
+}
+.mySkills > h2:nth-child(1){
+  text-align: center;
+  font-weight: bold;
+  line-height: 55px;
+  color: #f9ab00;
+  background-color: aquamarine;
+  font-size: xx-large;
+}
+
+.front, .back{
+  width: 80vw;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  text-align: center;
+
+}
+.front > h3, .back > h3 {
+  /* font-size: larger; */
+  font-weight: bold;
+  font-size: x-large;
+  text-shadow: 1px 1px var(--primary-red);
+}
+.fmain, .bmain{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.boxes{
+  width: 180px;
+  /* border: 1px solid brown; */
+  margin-top: 10px;
+  /* margin: 5px; */
+  box-sizing: border-box;
+}
+.boxes > h4 {
+  font-size: larger;
+  font-weight: bold;
+  color: #ef4035;
+  margin-top: 25px;
+
+}
+.boxes > img{
+  width: 160px;
+  padding: 8px;
+}
+.boxes > img:hover{
+  /* width: 180px; */
+  padding: 3px;
+  transition: 0.2s ease-in;
+  cursor: pointer;
+  
+}
+
+@media only screen and (max-width: 768px){
+  .fmain, .bmain{
+    display: grid;
+    grid-template-columns: auto auto ;
+  }
+  .boxes{
+    width: 25vw;
+    /* border: 1px solid brown; */
+    margin-top: 10px;
+    /* margin: 5px; */
+    box-sizing: border-box;
+  }
+  .boxes > img{
+    width: 20vw;
+    padding: 5%;
+  }
+  
+.front, .back{
+  width: 50vw;
+}
+}
+
+/************************ About ************************/
+/* @media only screen and (max-width: 768px){
+.aboutSection__right > img{
+  width: 11px
+}
+} */

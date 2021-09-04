@@ -2,7 +2,7 @@ import './App.css';
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import Navbar from './components/Navbar';
 import Header from './components/Header';
-import Particles from 'react-particles-js';
+// import Particles from 'react-particles-js';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import About from './components/About';
 import Projects from './components/Projects';
@@ -14,8 +14,7 @@ function App() {
   return (
     <div className="App">
     <>
-    <Router>
-    <Particles
+    {/* <Particles
           className="particles-canvas"
     params={
       {
@@ -36,7 +35,9 @@ function App() {
         }
       }
     }
-     />
+     /> */}
+    <Router>
+  
      <Navbar />
      <Switch>
           <Route exact path="/">
