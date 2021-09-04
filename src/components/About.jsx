@@ -77,6 +77,8 @@ const AboutSectionStyles = styled.div`
 const About = () => {
   const [fskill, setFskill] = useState(Frontend)
   const [bskill, setBskill] = useState(Backend)
+
+  
     return (
         <AboutSectionStyles>
           <div className="container">

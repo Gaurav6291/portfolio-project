@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
-import { MdSearch } from 'react-icons/md';
+// import { MdSearch } from 'react-icons/md';
 import SectionTitle from './SectionTitle';
 import ProjectList from './ProjectList';
 import ProjectItem from './ProjectItem';

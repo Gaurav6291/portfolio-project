@@ -10,7 +10,7 @@ import SliderItem from './SliderItem';
 import Html from '../html5.png';
 import Css from '../css3.png';
 import Express from '../express.png';
-import Github from '../github.png';
+// import Github from '../github.png';
 import Js from '../JavaScript.png';
 import MaterialUI from '../material-ui.png';
 import Mongo from '../mongodb.png';
